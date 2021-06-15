@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es">
+    <head>
+        <link rel="icon" href="img/icon.svg">   
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tomás Graziano</title>
+    </head>
+    
+    <script  src="menu.js" defer></script>
+    <body>
+        <header id="inicio" class="header">
+            <img src="img/menu.svg" alt="" class="menu">
+            <nav class="menuNavegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#skills">Skills</a>
+                <a href="#proyects">Proyectos</a>
+                <a href="#aboutMe">Sobre mi</a>
+                <a href="#contactMe">Contactar</a>
+            </nav>
+            <div class="contenedor premisa" id="hola">
+                <h1 class="titulo">Tomás Graziano</h1>
+                <p class="text">Python/JavaScript Developer</p>
+            </div>
+        </header>
+        <main>
+                <section class="contenedor" id="skills">
+                    <h2 class="subtitulo">Skills: </h2>
+                    <section class="contenedor-skills">
+                        <div class="description">
+                            <img src="img/Javascript.svg" class="imagen-skills">
+                            <h3 class="n-skills">Javascript</h3>
+                        </div>
+                        <div class="description">
+                            <img src="img/html.svg" class="imagen-skills">
+                            <h3 class="n-skills">Html</h3>
+                        </div>
+                        <div class="description">
+                            <img src="img/css.svg" class="imagen-skills">
+                            <h3 class="n-skills">Css</h3>
+                        </div>
+                        <div class="description">
+                            <img src="img/Python.svg" class="imagen-skills">
+                            <h3 class="n-skills">Python</h3>
+                        </div>
+                    </section>
+                </section>   
+            </section>
+            <section id="proyects" class="contenedor">
+                <h2 class="subtitulo">Proyectos</h2>
+                <div class="proyectos-contenedor">
+                    <div class="proyecto-selector proyecto-listaTareas">
+                        <h3 class="n-proyectos">Lista de Notas</h3>
+                        <img src="img/proyectonotas.jpg" >
+                        <i onclick="desplegable(this)" class='bx bxs-chevron-right-square'></i>
+                        <a class="acceso-toggle link-proyect"  href="https://gountz.github.io/appdenotas/"><span>Mi Proyecto:</span><i class='bx bxl-github' ></i></i></a>
+                    </div>
+                    <div class="proyecto-selector proyecto-calculadora">
+                        <h3 class="n-proyectos">Calculadora</h3>
+                        <img  src="img/proyectoCalculadora.jpg" >
+                        <i onclick="desplegable(this)" class='bx bxs-chevron-right-square'></i>
+                        <a class="acceso-toggle link-proyect"  href="https://gountz.github.io/calculator/"><span>Mi Proyecto:</span><i class='bx bxl-github' ></i></a>
+                    </div>
+                    <div class="proyecto-selector proyecto-Cronometro">
+                        <h3 class="n-proyectos">Cronometro</h3>
+                        <img  src="img/proyectoCronometro.jpg">
+                        <i onclick="desplegable(this)" class='bx bxs-chevron-right-square'></i>
+                        <a class="acceso-toggle link-proyect" href="https://gountz.github.io/cronometro/"><span>Mi Proyecto:</span><i class='bx bxl-github' ></i></a>
+                    </div>
+                    <div class="proyecto-selector proyecto-Cronometro">
+                        <h3 class="n-proyectos">Buscaminas</h3>
+                        <img  src="img/proyectoBuscaminas.jpg">
+                        <i onclick="desplegable(this)" class='bx bxs-chevron-right-square'></i>
+                        <a class="acceso-toggle link-proyect" href="https://gountz.github.io/Buscaminas/"><span>Mi Proyecto:</span><i class='bx bxl-github' ></i></a>
+                    </div>
+
+
+                </div>
+            </section>
+            <section class="contenedor" id="aboutMe">
+                <h2 class="subtitulo"> Sobre mi </h2>
+                <div class="contenedor-aboutMe">
+                    <img src="img/developer.svg" alt="">
+                    <div class="checklist-aboutMe">
+                        <div class="service">
+                            <p> Hola! soy Tomás, estudio Ciencias en computacion en la UBA, vivo en capital 
+                                federal,  estoy desarrollandome en desarrollo web y analisis de datos, 
+                                trabajo part-time en Carrefour, me dedico al front-end, actualmente me encuentro desarrollando
+                                proyectos con Rapsberry. Mis intereses generales son Física, electrónica y desarrollo de software.
+
+                            </p>
+                        </div>
+
+            </section>
+        
+        </main>
+        <footer id="contactMe">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Tomás Developer</h2>
+                    <p>Developer Jr</p>
+                </div>
+                <div class="social-media ">
+                    <a href="https://github.com/gountz" class="social-media-icon" target="_blank">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/tom%C3%A1s-francisco-graziano-1396aa1a6/" class="social-media-icon" target="_blank">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+        
+       
+       
+    </body>
+</html>
